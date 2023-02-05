@@ -18,7 +18,7 @@ ul {
 }
 
 li {
-  color: #ddc7f7;
+  color: #f4c0ff;
   -webkit-text-stroke: 0.8px rgb(11, 14, 14);
   font-size: 22px;
   font-weight: bolder;
@@ -28,9 +28,9 @@ li {
 }
 
 .units {
-  color: #17317a;
+  color: #3051aa;
   -webkit-text-stroke: 0.5px rgb(198, 211, 236);
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bolder;
   height: 20px;
   line-height: 1;
@@ -47,8 +47,8 @@ li {
   background: linear-gradient(
     90deg,
     rgb(66, 81, 212),
-    rgb(78, 93, 230),
-    rgb(60, 124, 209),
+    rgb(90, 103, 212),
+    rgb(70, 133, 214),
     rgb(66, 81, 212)
   );
   background-size: 300%;
@@ -80,8 +80,8 @@ button:before {
   background: linear-gradient(
     90deg,
     rgb(66, 81, 212),
-    rgb(78, 93, 230),
-    rgb(60, 124, 209),
+    rgb(90, 103, 212),
+    rgb(70, 133, 214),
     rgb(66, 81, 212)
   );
   background-size: 400%;
@@ -109,10 +109,11 @@ button:hover::before {
 }
 
 .temperature {
-  color: rgb(33, 33, 33);
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 1;
+  color: #3051aa;
+  font-size: 70px;
+  font-weight: 100;
+  line-height: 85px;
+  -webkit-text-stroke: 1px rgb(198, 211, 236);
 }
 
 .units {
